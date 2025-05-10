@@ -23,8 +23,8 @@ body {
 }
 .container {
   width: 350px;
-  padding: 25px 35px;
-  margin: 50px auto;
+  padding: 20px 35px;
+  margin: 40px auto 20px;
   /* position: absolute; */
   /* top: 50%; */
   /* left: 50%; */
@@ -86,6 +86,18 @@ body {
 }
 .error {
   animation: shake 0.1s linear infinite;
+}
+.footer {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  width: 90%;
+  font-size: 12px;
+  margin: auto;
+  text-align: center;
+  font-weight: 400;
+  color: var(--primary-color);
 }
 @keyframes shake {
   0% {
